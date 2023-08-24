@@ -1,9 +1,16 @@
+#IMAGE_NAME = "bento/ubuntu-20.04"
+
+# For apple mac m1 chip users
 IMAGE_NAME = "bento/ubuntu-20.04-arm64"
 N = 2
 
 Vagrant.configure("2") do |config|
     config.ssh.insert_key = false
 
+    ### for virtualbox provider ###
+    #config.vm.provider "virtualbox" do |v|
+
+    ### for vmware provider ###
     config.vm.provider "vmware_desktop" do |v|
         v.memory = 2048
         v.cpus = 2
