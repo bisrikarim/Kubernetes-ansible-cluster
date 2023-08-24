@@ -1,3 +1,6 @@
+
+![kubernetes-horizontal-color](https://github.com/bisrikarim/Kubernetes-ansible-cluster/assets/23639544/002a9c6e-c414-4ea5-859e-a77744ae92ff)
+
 # Kubernetes-ansible-cluster
 Combination of Vagrant and Ansible to spin up a Kubernetes cluster
 
