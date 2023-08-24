@@ -1,0 +1,1 @@
+kubeadm join 192.168.50.10:6443 --token of1n81.ektoc118rllcjd1n --discovery-token-ca-cert-hash sha256:edd27bdc1eae7d27805bbb6a70e3f8ee311f2fdf80ab89544c66caa6fb932330
